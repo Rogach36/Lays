@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Scotch Deck';
+    src: url('ScotchDeck-ExtraBold.eot');
+    src: local('Scotch Deck ExtraBold'), local('ScotchDeck-ExtraBold'),
+        url('ScotchDeck-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeck-ExtraBold.woff2') format('woff2'),
+        url('ScotchDeck-ExtraBold.woff') format('woff'),
+        url('ScotchDeck-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Comp Rm';
+    src: url('ScotchDeckComp-Rm.eot');
+    src: local('Scotch Deck Compressed Roman'), local('ScotchDeckComp-Rm'),
+        url('ScotchDeckComp-Rm.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckComp-Rm.woff2') format('woff2'),
+        url('ScotchDeckComp-Rm.woff') format('woff'),
+        url('ScotchDeckComp-Rm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Cond XBd';
+    src: url('ScotchDeckCond-XBd.eot');
+    src: local('Scotch Deck Condensed ExtraBold'), local('ScotchDeckCond-XBd'),
+        url('ScotchDeckCond-XBd.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckCond-XBd.woff2') format('woff2'),
+        url('ScotchDeckCond-XBd.woff') format('woff'),
+        url('ScotchDeckCond-XBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Comp Sm';
+    src: url('ScotchDeckComp-Sm.eot');
+    src: local('Scotch Deck Compressed SemiBold'), local('ScotchDeckComp-Sm'),
+        url('ScotchDeckComp-Sm.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckComp-Sm.woff2') format('woff2'),
+        url('ScotchDeckComp-Sm.woff') format('woff'),
+        url('ScotchDeckComp-Sm.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Cond Bd';
+    src: url('ScotchDeckCond-Bd.eot');
+    src: local('Scotch Deck Condensed Bold'), local('ScotchDeckCond-Bd'),
+        url('ScotchDeckCond-Bd.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckCond-Bd.woff2') format('woff2'),
+        url('ScotchDeckCond-Bd.woff') format('woff'),
+        url('ScotchDeckCond-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Comp Md';
+    src: url('ScotchDeckComp-Md.eot');
+    src: local('Scotch Deck Compressed Medium'), local('ScotchDeckComp-Md'),
+        url('ScotchDeckComp-Md.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckComp-Md.woff2') format('woff2'),
+        url('ScotchDeckComp-Md.woff') format('woff'),
+        url('ScotchDeckComp-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Cond Md';
+    src: url('ScotchDeckCond-Md.eot');
+    src: local('Scotch Deck Condensed Medium'), local('ScotchDeckCond-Md'),
+        url('ScotchDeckCond-Md.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckCond-Md.woff2') format('woff2'),
+        url('ScotchDeckCond-Md.woff') format('woff'),
+        url('ScotchDeckCond-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Comp Bd';
+    src: url('ScotchDeckComp-Bd.eot');
+    src: local('Scotch Deck Compressed Bold'), local('ScotchDeckComp-Bd'),
+        url('ScotchDeckComp-Bd.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckComp-Bd.woff2') format('woff2'),
+        url('ScotchDeckComp-Bd.woff') format('woff'),
+        url('ScotchDeckComp-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Comp XBd';
+    src: url('ScotchDeckComp-XBd.eot');
+    src: local('Scotch Deck Compressed ExtraBold'), local('ScotchDeckComp-XBd'),
+        url('ScotchDeckComp-XBd.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckComp-XBd.woff2') format('woff2'),
+        url('ScotchDeckComp-XBd.woff') format('woff'),
+        url('ScotchDeckComp-XBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Cond Rm';
+    src: url('ScotchDeckCond-Rm.eot');
+    src: local('Scotch Deck Condensed Roman'), local('ScotchDeckCond-Rm'),
+        url('ScotchDeckCond-Rm.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckCond-Rm.woff2') format('woff2'),
+        url('ScotchDeckCond-Rm.woff') format('woff'),
+        url('ScotchDeckCond-Rm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck';
+    src: url('ScotchDeck-Medium.eot');
+    src: local('Scotch Deck Medium'), local('ScotchDeck-Medium'),
+        url('ScotchDeck-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeck-Medium.woff2') format('woff2'),
+        url('ScotchDeck-Medium.woff') format('woff'),
+        url('ScotchDeck-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck';
+    src: url('ScotchDeck-Light.eot');
+    src: local('Scotch Deck Light'), local('ScotchDeck-Light'),
+        url('ScotchDeck-Light.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeck-Light.woff2') format('woff2'),
+        url('ScotchDeck-Light.woff') format('woff'),
+        url('ScotchDeck-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck';
+    src: url('ScotchDeck-Bold.eot');
+    src: local('Scotch Deck Bold'), local('ScotchDeck-Bold'),
+        url('ScotchDeck-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeck-Bold.woff2') format('woff2'),
+        url('ScotchDeck-Bold.woff') format('woff'),
+        url('ScotchDeck-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Cond Sm';
+    src: url('ScotchDeckCond-Sm.eot');
+    src: local('Scotch Deck Condensed SemiBold'), local('ScotchDeckCond-Sm'),
+        url('ScotchDeckCond-Sm.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckCond-Sm.woff2') format('woff2'),
+        url('ScotchDeckCond-Sm.woff') format('woff'),
+        url('ScotchDeckCond-Sm.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Comp Lt';
+    src: url('ScotchDeckComp-Lt.eot');
+    src: local('Scotch Deck Compressed Light'), local('ScotchDeckComp-Lt'),
+        url('ScotchDeckComp-Lt.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckComp-Lt.woff2') format('woff2'),
+        url('ScotchDeckComp-Lt.woff') format('woff'),
+        url('ScotchDeckComp-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Cond Lt';
+    src: url('ScotchDeckCond-Lt.eot');
+    src: local('Scotch Deck Condensed Light'), local('ScotchDeckCond-Lt'),
+        url('ScotchDeckCond-Lt.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeckCond-Lt.woff2') format('woff2'),
+        url('ScotchDeckCond-Lt.woff') format('woff'),
+        url('ScotchDeckCond-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck Roman';
+    src: url('ScotchDeck-Roman.eot');
+    src: local('Scotch Deck Roman'), local('ScotchDeck-Roman'),
+        url('ScotchDeck-Roman.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeck-Roman.woff2') format('woff2'),
+        url('ScotchDeck-Roman.woff') format('woff'),
+        url('ScotchDeck-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Deck';
+    src: url('ScotchDeck-SemiBold.eot');
+    src: local('Scotch Deck SemiBold'), local('ScotchDeck-SemiBold'),
+        url('ScotchDeck-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDeck-SemiBold.woff2') format('woff2'),
+        url('ScotchDeck-SemiBold.woff') format('woff'),
+        url('ScotchDeck-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
