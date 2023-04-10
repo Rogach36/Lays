@@ -144,7 +144,8 @@ h6 {
 }
 .page__product {
 }
-
+.page__potato {
+}
 /*----------Header----------------------*/
 
 .header {
@@ -883,7 +884,7 @@ h6 {
 
 @media(max-width: 690px) {
 	.product {
-		padding: 20px 0 110px 0;
+		padding: 20px 0 70px 0;
   }
 	.product__row-top {
 		flex-wrap: wrap;
@@ -924,4 +925,80 @@ h6 {
 .row-bottom__description {	
 	font-size: 18px;	
 }
+}
+/*----------------Potato----------------*/
+.potato {
+	padding: 90px 0;
+	background-color: #FFF0DE;
+}
+.potato__container {
+}
+.potato__row {
+	display: flex;
+	justify-content: space-between;
+}
+.potato__image {
+	flex: 0 1 467px;
+	position: relative;
+	padding-bottom: 38.91%;	
+}
+
+.potato__image img {
+	object-fit: contain;
+}
+
+.potato__body {
+	flex: 0 1 57.833%;
+	padding: 0 0 0 39px;
+}
+.body-potato {
+}
+.body-potato__title {
+	font-family: 'Scotch Deck';
+	font-weight: 500;
+	font-size: 80px;
+	line-height: 120%;
+	text-transform: capitalize;
+	color: #1E2438;
+	padding: 0 0 20px 0;
+	border-bottom: 2px solid #D9D9D9;
+}
+.body-potato__text {	
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 170%;
+	text-transform: capitalize;
+	color: #1E2438;
+	padding: 20px 0 0 0;
+	margin: 0 0 68px 0;
+}
+.body-potato__image {
+	position: relative;
+	padding-bottom: 26.945%;
+}
+
+.body-potato__image img {
+	object-fit: contain;
+}
+
+@media(max-width: 884px) {
+	.potato__row {
+		flex-wrap: wrap;
+	}
+	.potato__image {
+		flex: 0 1 89%;
+		position: static;
+		padding-bottom: 0;
+		margin: 0 auto 20px auto;
+	}
+	.potato__image img {
+		position: static;
+	  }
+	.potato__body {
+		flex: 1 1 100%;
+	}
+	.body-potato__text {		
+		font-size: 19px;	
+		margin: 0 0 30px 0;	
+  }  
 }
