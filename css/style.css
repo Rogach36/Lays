@@ -142,6 +142,8 @@ h6 {
 }
 .page__ourreview {
 }
+.page__product {
+}
 
 /*----------Header----------------------*/
 
@@ -411,7 +413,9 @@ h6 {
 .main-block__slider-btn>*:not(:last-child) {
 	margin: 0 30px 0 0;
 }
-.slider-btn__arrow-left {
+.slider-btn__arrow-left,
+.slider-btn__arrow-right {
+	cursor: pointer;
 }
 .slider-btn__square {
 	width: 18px;
@@ -419,8 +423,7 @@ h6 {
 	background: #B1464A;
 	border-radius: 4px;
 }
-.slider-btn__arrow-righ {
-}
+
 .main-block__cover {
 	position: absolute;
 	width: 100%;
@@ -721,5 +724,204 @@ h6 {
 }
 .item-block__button-left::before {
 	display: none;
+}
+}
+/*------------Product--------------------*/
+
+
+.product {
+	padding: 50px 0 110px 0;
+}
+.product__container {
+}
+.product__row-top {
+	display: flex;
+	justify-content: space-between;
+	/* padding-left: 110px; */
+	position: relative;
+}
+.row-top {
+	
+}
+.row-top__wrap {
+	flex: 0 1 48.166%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.row-top__title {
+	font-family: 'Scotch Deck';
+	font-weight: 500;
+	font-size: 100px;
+	line-height: 120%;
+	text-transform: capitalize;	
+	color: #1E2438;
+	padding: 25px 0 0 0;
+	align-self: flex-end;
+	margin: 0 0 65px 0;
+}
+.row-top__button {
+	display: inline-flex;
+	min-height: 55px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #B1464A;
+	border: 2px solid #B1464A;
+	border-radius: 10px;
+	padding: 14px 60px 14px 28px;
+	position: relative;
+	}
+
+	.row-top__button::after {
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 16px;
+		right: 22px;
+		top: 17px;
+		background-image: url("../img/product/arrow.svg");
+		background-repeat: no-repeat;
+  }
+
+.row-top__image {
+	flex: 0 1 41.083%;
+	padding-left: 29px;
+	position: relative;
+	padding-bottom: 40.75%;
+}
+.row-top__image img {	
+	object-fit: contain;
+}
+.product__row-bottom {
+	display: flex;	
+	justify-content: space-between;
+	position: relative;
+	margin-top: -55px;
+	z-index: 3;
+}
+.row-bottom__image {
+	flex: 0 1 24.583%;
+	
+}
+.row-bottom__text {
+	flex: 0 1 67.166%;
+	padding-top: 133px;
+}
+.row-bottom__title {
+	font-family: 'Scotch Deck';	
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 118.75%;
+	text-transform: capitalize;	
+	color: #1E2438;
+	padding: 0 0 21px 0;	
+	border-bottom: 2px solid #D9D9D9;
+}
+.row-bottom__title:not(:last-child) {
+	margin: 0 0 20px 0;
+}
+.row-bottom__description {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 170%;
+	text-transform: capitalize;
+	color: #1E2438;
+}
+
+@media(max-width: 1070px) {
+	.row-top__wrap {		
+		align-items: flex-start;
+  }
+	.product__row-bottom {		
+		position: static;		
+	}	
+	.row-bottom__image {		
+		padding-top: 85px;
+  }
+	.row-bottom__text {		
+		padding: 91px 0 0 30px;
+  }
+  .row-top__title {	
+	font-size: 88px;
+	line-height: 103%;	
+}
+}
+@media(max-width: 992px) {
+	.row-top__image {		
+		align-self: flex-start;
+  }
+}
+
+@media(max-width: 874px) {
+	.row-bottom__text {
+		padding: 67px 0 0 30px;
+  }
+	.row-top__title {		
+		margin: 0 0 20px 0;
+		padding: 0;
+		font-size: 70px;
+  }
+  .row-bottom__image {	
+	padding: 75px 0 0 0;
+}
+.product__row-bottom {
+	
+	margin-top: -25px;
+	
+}
+.row-top__title {
+	margin: 0 0 50px 0;
+}
+.row-bottom__title:not(:last-child) {
+	margin: 0 0 12px 0;
+}
+.row-bottom__title {
+	padding: 0 0 12px 0;	
+}
+}
+
+@media(max-width: 690px) {
+	.product {
+		padding: 20px 0 110px 0;
+  }
+	.product__row-top {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+	.row-top__wrap {
+		flex: 1 1 100%;
+		display: flex;
+		align-items: center;
+	}
+	.row-top__image {
+		flex: 0 1 41.083%;
+		padding: 0 0 25px 0;
+		margin: 0 auto;
+		position: relative;
+	}
+	.row-top__title {
+		text-align: center;
+	}
+	
+  .row-top__image img {
+	position: static;	
+}
+.row-bottom__image {
+	padding: 80px 0 0 0;
+} 
+.product__row-bottom {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.row-bottom__image {
+	flex: 0 1 50%;	
+	margin: 0 auto;
+}
+.row-top__button {	
+	padding: 14px 60px 14px 60px;	
+}
+.row-bottom__description {	
+	font-size: 18px;	
 }
 }
