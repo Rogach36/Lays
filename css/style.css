@@ -146,6 +146,10 @@ h6 {
 }
 .page__potato {
 }
+.page__awesome {
+}
+.page__join {
+}
 /*----------Header----------------------*/
 
 .header {
@@ -856,7 +860,7 @@ h6 {
 
 @media(max-width: 874px) {
 	.row-bottom__text {
-		padding: 67px 0 0 30px;
+		padding: 67px 0 0 0;
   }
 	.row-top__title {		
 		margin: 0 0 20px 0;
@@ -1001,4 +1005,271 @@ h6 {
 		font-size: 19px;	
 		margin: 0 0 30px 0;	
   }  
+}
+
+/*--------------Awesome-----------------*/
+
+.awesome {
+	padding: 74px 0;
+}
+.awesome__container {
+}
+.awesome__row {
+	display: flex;
+	align-items: center;
+}
+.awesome__title {
+	flex: 0 1 33.833%;
+	font-family: 'Scotch Deck';
+	font-weight: 500;
+	font-size: 74px;
+	line-height: 120%;
+	text-transform: capitalize;	
+	color: #1E2438;
+}
+
+
+.awesome__image {
+	flex: 0 1 33.083%;
+	position: relative;
+	padding-bottom: 33.083%;
+}
+.awesome__text {
+	flex: 0 1 28.666%
+}
+
+.text-awesome__title:not(:last-child) {
+	margin: 0 0 12px 0;
+}
+.text-awesome__title {
+	font-family: 'Scotch Deck';
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 120.8%;
+	text-transform: capitalize;
+	color: #1E2438;
+}
+.text-awesome__description {
+	font-size: 17px;
+	line-height: 140%;
+	text-transform: capitalize;	
+	color: #1E2438;
+	margin: 0 0 30px 0;
+}
+
+.text-awesome__button  {
+	display: inline-flex;
+	min-height: 55px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #B1464A;
+	border: 2px solid #B1464A;
+	border-radius: 10px;
+	padding: 14px 60px 14px 28px;
+	position: relative;
+}
+.text-awesome__button::after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 16px;
+	right: 22px;
+	top: 17px;
+	background-image: url("../img/potato/02.svg");
+	background-repeat: no-repeat;
+}
+
+
+@media(max-width: 992px) {
+	.awesome__title {		
+		font-size: 60px;
+	}
+}
+
+@media(max-width: 772px) {
+.text-awesome__button {
+	font-size: 17px;
+	padding: 14px 50px 14px 16px;
+}
+}
+@media(max-width: 620px) {
+	.awesome__row {
+		flex-wrap: wrap;
+	}
+	.awesome__title {
+		flex: 0 1 50%;
+		margin: 0 0 20px 0;
+	}
+	.awesome__image {
+		flex: 0 1 50%;
+		padding-bottom: 51%;
+	}
+	.awesome__text {
+		flex: 1 1 100%
+	}
+	
+}
+@media(max-width: 479px) {
+	.awesome__row {
+		text-align: center;
+  }
+	.awesome__title {
+		flex: 1 1 100%;
+	}
+	.awesome__image {
+		flex: 1 1 100%;
+		padding-bottom:100%;
+	}
+.awesome__title {
+	font-size: 50px;
+	line-height: 110%;
+}
+
+.text-awesome__title {	
+	font-weight: 600;
+	font-size: 30px;
+}
+.text-awesome__title:not(:last-child) {
+	margin: 20px 0 12px 0;
+}
+}
+
+/*-------------Join-------------------*/
+
+.join {
+	
+}
+.join__container {
+	
+}
+.join__content {
+	padding: 74px 99px 90px 99px;
+	
+}
+.join__body {	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 100px 170px;
+	background-color: #B1464A;
+	
+}
+
+.join__title {
+	font-family: 'Scotch Deck';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 115.5%;
+	text-align: center;
+	letter-spacing: -0.02em;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin: 0 0 16px 0;
+}
+.join__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 165.5%;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+	opacity: 0.7;
+	padding: 0 22px;
+	margin: 0 0 32px 0;
+}
+.join__form {
+}
+.form-join {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	/* left: 11%; */
+}
+
+.form-join__input {
+	flex: 1 1 auto;
+	min-height: 70px;
+	width: 100%;
+	padding: 0 20px;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #E6E6E6;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 213%;
+	text-transform: capitalize;
+	color: rgba(30, 36, 56, 0.51);	
+	/* align-self: center;
+	position: relative; */
+}
+
+
+.form-join__button {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	min-height: 49px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 200%;
+	background: linear-gradient(180deg, #E47479 17.59%, #B1464A 95.19%);
+	box-shadow: 0px 5px 22px rgba(253, 94, 95, 0.6);
+	border-radius: 6px;
+	padding: 11px 40px;
+	cursor: pointer;
+	position: absolute;
+	right: 9px;	
+}
+
+@media(max-width: 1123px) {
+	.join__body {
+		padding: 100px 82px;;
+  }
+}
+@media(max-width: 992px) {
+	.join__body {
+		padding: 70px 94px;
+  }
+  .form-join__button {	
+	padding: 11px 32px;
+	/* right: 144px; */
+}
+.join__content {
+	padding: 74px 40px 90px 40px;
+}
+}
+@media(max-width: 687px) {
+	.join__body {
+		padding: 50px;
+  }
+  .form-join__input {	
+	font-size: 14px;
+	min-height: 60px;
+	}
+	.form-join__button {
+		padding: 5px 22px;
+  }
+}
+
+@media(max-width: 554px) {	
+	.join__content {
+		padding: 74px 0 0 0;
+  }
+	.form-join__button {
+		top: 74px;
+		right: 0;
+	}
+  .join__body {
+	padding-bottom: 105px;
+  } 
+  .form-join__input {	
+	text-align: center;	
+	padding: 0;
+	min-height: 49px;
+}
 }
