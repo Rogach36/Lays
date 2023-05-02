@@ -138,6 +138,9 @@ h6 {
 
 /*-----------Page--------------------------*/
 
+.page {
+	flex: 1 1 auto;
+}
 .page__main-block {
 }
 .page__ourreview {
